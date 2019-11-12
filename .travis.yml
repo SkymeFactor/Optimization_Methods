@@ -3,4 +3,4 @@ language: python
 python:
   - "2.7"
 
-script: python golden_section.py
+script: python test_1.py
