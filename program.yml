@@ -1,4 +1,6 @@
 language: python
-jobs:
-  include:
-      script: python golden_section.py
+
+python:
+  - "2.7"
+
+script: python golden_section.py
