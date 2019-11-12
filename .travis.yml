@@ -3,6 +3,6 @@ language: python
 python:
   - "2.7"
 
-
-test: python test_1.py
-      python test_2.py
+- stage: test
+    script: python test_1.py
+    script: python test_2.py
