@@ -3,6 +3,8 @@ language: python
 python:
   - "2.7"
 
-- stage: test
+- stage: "test"
+    name: "Test1"
     script: python test_1.py
+    name: "Test2"
     script: python test_2.py

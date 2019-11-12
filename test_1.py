@@ -10,6 +10,7 @@ class TestMethods(unittest.TestCase):
         print("OK.")
     def tearDown(self):
         print("Test ended.")
+        
 
 
 if __name__ == "__main__":
