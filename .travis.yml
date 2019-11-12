@@ -4,7 +4,7 @@ python:
   - "2.7"
 
 - stage: "test"
-    name: "Test1"
-    script: python test_1.py
-    name: "Test2"
-    script: python test_2.py
+  name: "Test1"
+  script: python test_1.py
+  name: "Test2"
+  script: python test_2.py
